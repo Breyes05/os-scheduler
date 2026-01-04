@@ -1,0 +1,17 @@
+# Compiled object files
+*.o
+
+# Compiled executable
+*.exe
+*.out
+*.out.exe
+scheduler    # if you named the binary 'scheduler'
+
+# Backup files
+*~
+*.bak
+
+# Editor temporary files
+.vscode/
+.idea/
+*.swp
