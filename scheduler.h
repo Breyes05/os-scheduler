@@ -3,7 +3,6 @@
 
 #include "process.h"
 
-// first come first serve
 void fcfs(process_t processes[], int num_processes);
 
 void shortest_job_first(process_t processes[], int num_processes);

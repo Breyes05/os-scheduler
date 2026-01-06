@@ -11,4 +11,12 @@ int main() {
 
     int num_processes = 3;
     // demo processes
+    printf("First Come First Serve Algorithm executes processes by arrival time\n");
+    fcfs(processes, num_processes);
+    printf("\n");
+    printf("Shortest Job First Algorithm executes processes by burst time\n");
+    shortest_job_first(processes, num_processes);
+    printf("\n");
+    printf("Round Robin Algorithm cycles through all available processes at a given time with an alotted time until they run as long as the burst time\n");
+    round_robin(processes, num_processes, 2);
 }
